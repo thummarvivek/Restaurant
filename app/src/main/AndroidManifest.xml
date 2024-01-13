@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Restaurant"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31" >
+        <activity
+            android:name=".Loginpro.Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.Feedback"
+            android:exported="false"
+            android:label="@string/title_activity_feedback" />
+        <activity
+            android:name=".Loginpro.Secondpay"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpro.edit_profile"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.Tableshow"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.Myordersh"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.Payment"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.Order"
+            android:exported="false" />
+        <activity
+            android:name=".shopping.Selectcart"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage.Homepage"
+            android:exported="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".Loginpro.Otp"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpro.ResetPaasword"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpro.Forget"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpro.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpro.Registrationn"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpro.Splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
