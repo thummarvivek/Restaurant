@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Appclient {
 
-    public static final String BASEURL ="http://vivekgroup.whf.bz/Android_site/";
+    public static final String BASEURL ="http://VivekGroup/";
 
     public static Retrofit getclient()
     {
