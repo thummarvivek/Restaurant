@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomrounded"
+    tools:context=".fragment.Bottomsheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/lineextend"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:src="@drawable/line"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:id="@+id/number001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_outline_feedback_24"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Feedback" />
+
+        <TextView
+            android:id="@+id/number002"
+            android:layout_width="match_parent"
+            android:drawablePadding="20dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_outline_info_24"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="About Us" />
+
+        <TextView
+            android:id="@+id/number003"
+            android:layout_width="match_parent"
+            android:drawablePadding="20dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_outline_info_24"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Contact Us And Info" />
+
+        <TextView
+            android:id="@+id/number004"
+            android:drawableLeft="@drawable/ic_outline_help_outline_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Help Center" />
+
+        <TextView
+            android:id="@+id/number005"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:text="Logout" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:text=" @ This App Created By Vivek Thummar" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+    </LinearLayout>
+</FrameLayout>
